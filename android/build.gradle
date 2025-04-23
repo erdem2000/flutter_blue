@@ -26,6 +26,8 @@ apply plugin: 'com.google.protobuf'
 android {
     compileSdkVersion 31
 
+    namespace = "com.qtr.flutter_blue"
+
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 31
